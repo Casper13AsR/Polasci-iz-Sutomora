@@ -1,30 +1,57 @@
 <!DOCTYPE html>
-<html lang="sr">
+<html>
 <head>
-    <meta charset="UTF-8" />
-    <title>Polasci iz Sutomora</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-        h1 {
-            font-weight: bold;
-        }
-        .info {
-            margin-top: 40px;
-            font-weight: bold;
-            display: flex;
-            justify-content: flex-start;
-            gap: 40px;
-        }
-    </style>
+<style>
+
+body {
+    background: #d0d0d0; /* siva pozadina kao na slici */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 50px auto;
+    width: max-content;
+    text-align: center;
+}
+
+.title-text {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* TABELA */
+table {
+    border-collapse: collapse;
+    background: white;
+}
+
+/* ĆELIJE */
+td {
+    width: 150px;
+    height: 120px;
+    border: 6px solid black;     /* debeli okvir kao na slici */
+    font-size: 32px;
+    text-align: center;
+    vertical-align: middle;      /* centriranje po visini */
+}
+
+</style>
 </head>
 <body>
-    <h1>polasci iz sutomora</h1>
-    <div class="info">
-        <div>07:20 Zejdin - Petrovac-Budva-Kotor-Herceg Novi</div>
-        <div>status - online</div>
-    </div>
+
+<div class="container">
+
+    <div class="title-text">text</div>
+
+    <table>
+        <tr>
+            <td>text</td>
+            <td>text</td>
+            <td>text</td>
+        </tr>
+    </table>
+
+</div>
+
 </body>
 </html>
